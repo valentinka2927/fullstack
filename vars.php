@@ -59,3 +59,4 @@ $price = 2 * $gamburger + $coctel + $cocacola ;
 
 echo $result = $price * $tips + $price * $nds + $price;
 
+
