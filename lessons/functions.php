@@ -69,18 +69,5 @@ function maxNumber (array $numbers) {
  }
 
 
- function positive_sum($arr) {
-    // Your code here
-    $res = 0;
-    foreach ($arr as $number) {
-        if ($number>0){
-            $res += $number;
-        }
-      
-    }
-    return $res;
-  }
-
-
 echo maxNumber($numbers) . '<br>';
 echo max($numbers) . '<br>';
