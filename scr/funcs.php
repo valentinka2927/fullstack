@@ -1,10 +1,10 @@
 <?php
 
 function test () {
-    echo 'Test!!!!!';
+    echo 'Test!!!';
 }
 
-function dump ($var){
+function dump ($var) {
     echo '<pre>';
     var_dump($var);
     echo '</pre>';
